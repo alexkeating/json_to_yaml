@@ -1,0 +1,15 @@
+[package]
+name = "json_to_yaml"
+version = "0.1.0"
+authors = ["Alexander Keating <atk315315@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0.83"
+serde_derive = "1.0.83"
+serde_yaml = "0.8.8"
+serde_json = "1.0.33"
+serde-transcode = "1.0.0"
+quicli = "0.4"
+structopt = "0.2"
+
